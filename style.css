@@ -186,12 +186,11 @@ body{
 }
 
 .input-box input:focus ~ label,
-.input-box input:valid ~ label {
+.input-box input:not(:placeholder-shown) ~ label {
     top: -5px;
     font-size: 0.8rem;
     color: #162938;
 }
-
 
 .input-box input {
     width: 100%;
