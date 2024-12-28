@@ -185,12 +185,13 @@ body{
     transition: 0.5s;
 }
 
-.input-box input:focus~label,
-.input-box input:valid~label {
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
     top: -5px;
     font-size: 0.8rem;
     color: #162938;
 }
+
 
 .input-box input {
     width: 100%;
